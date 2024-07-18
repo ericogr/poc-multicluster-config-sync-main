@@ -16,3 +16,20 @@ spec:
   clusters:
   - link: "us-central1-c/poc-multicluster-gke-2"
   - link: "us-central1-c/poc-multicluster-gke-3"
+---
+apiVersion: networking.gke.io/v1
+kind: MultiClusterIngress
+metadata:
+  name: poc-multicluster
+  namespace: poc-multicluster
+spec:
+  template:
+    spec:
+      backend:
+        serviceName: poc-multicluster
+        servicePort: 80
+    #   rules:
+    #   - host: poc-multicluster.alpha.dev.totvs.app
+    #     backend:
+    #       serviceName: poc-multicluster
+    #       servicePort: 80
