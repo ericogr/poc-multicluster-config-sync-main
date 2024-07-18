@@ -2,7 +2,7 @@ apiVersion: networking.gke.io/v1
 kind: MultiClusterService
 metadata:
   name: poc-multicluster
-  namespace: config
+  namespace: poc-multicluster
 spec:
   template:
     spec:
