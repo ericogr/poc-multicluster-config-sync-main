@@ -15,7 +15,7 @@ spec:
         targetPort: 80
   clusters:
   - link: "southamerica-east1/poc-multicluster-ap-2"
-  - link: "us-central1-c/poc-multicluster-ap-3"
+  - link: "us-central1/poc-multicluster-ap-3"
 ---
 apiVersion: networking.gke.io/v1
 kind: MultiClusterIngress
