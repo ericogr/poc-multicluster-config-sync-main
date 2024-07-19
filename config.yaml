@@ -16,6 +16,7 @@ spec:
   clusters:
   - link: "southamerica-east1/poc-multicluster-ap-2"
   - link: "us-central1/poc-multicluster-ap-3"
+  - link: "europe-west1/poc-multicluster-ap-4"
 ---
 apiVersion: networking.gke.io/v1
 kind: MultiClusterIngress
