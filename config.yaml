@@ -14,9 +14,9 @@ spec:
         port: 80
         targetPort: 80
   clusters:
-  - link: "global/totvsapps-kind-conti"
-  - link: "global/totvsapps-kind-poc-multicluster"
-  - link: "global/totvsapps-kind-poc-multicluster-2"
+  - link: "totvsapps-kind-conti"
+  - link: "totvsapps-kind-poc-multicluster"
+  - link: "totvsapps-kind-poc-multicluster-2"
 ---
 apiVersion: networking.gke.io/v1
 kind: MultiClusterIngress
