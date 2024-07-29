@@ -13,8 +13,8 @@ spec:
         protocol: TCP
         port: 80
         targetPort: 80
-  clusters:
-  - link: "us-central1/poc-multicluster-user"
+  # clusters:
+  # - link: "us-central1/poc-multicluster-user"
 ---
 apiVersion: networking.gke.io/v1
 kind: MultiClusterIngress
